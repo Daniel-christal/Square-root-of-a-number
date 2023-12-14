@@ -18,13 +18,21 @@ To write a program to find the square root of a number.
 ```
 /*
 Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
+Developed by:Daniel.C 
+RegisterNumber:23008937
+def newtonmethod(n,nitems=1000):
+    a=float(n)
+    for i in range(nitems):
+        n=0.5*(n+a/n)
+    return n
+a=int(input())
+print("Square root of the number:",newtonmethod(a))
 */
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
+![image](https://github.com/Daniel-christal/Square-root-of-a-number/assets/145742847/ab97b8bf-feef-44a5-98df-ad09a9203b6e)
+
 
 
 ## Result:
